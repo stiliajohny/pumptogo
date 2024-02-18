@@ -1,4 +1,4 @@
-baseURL = "https://mac-providence-rows-biographies.trycloudflare.com"
+baseURL = "https://indraft.blog/pumptogo/"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
