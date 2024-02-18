@@ -1,0 +1,63 @@
+baseURL = "https://mac-providence-rows-biographies.trycloudflare.com"
+
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "en"
+
+# The name of this wonderful theme ;-).
+theme = "hugo-scroll"
+
+# The browser tab name
+title = "Pump to Go - Mobile Tyre Services"
+
+# In order to add version information in the page's footer set to true.
+# enableGitInfo = true
+
+# Theme-specific variables `.Site.Params.myParamName`
+[params]
+
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "images/favicon.png"
+
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
+    # NOT the actual header background image, go to _index.md instead
+    images = ["images/mainImage.jpg"]
+
+    # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
+    # Ideal images are homogenous around the centre and contrasting to the text.
+    # see CSS classes: .title-and-description-guard, .blog-title, .blog-description
+    # see _index.md header_headline and header_subheadline
+    title_guard = false
+
+    # Another "title" :-). This one is used as the site_name on the Hugo's internal
+    # opengraph structured data template.
+    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+    title = "Pump to Go"
+
+    # The "description" of your website. This is used in the meta data of your generated html.
+    description = "Mobile Tyre Services"
+
+    # A "copyright"-line to be added at the bottom of the page.
+    # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+    copyright = "©Pumpto Go 2023"
+
+    # This theme will, by default, inject a design-by-line at the bottom of the page.
+    # You can turn it off, but we would really appreciate if you don’t :-)
+    hidedesignbyline = false
+
+    # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
+    invertSectionColors = false
+    
+    [params.footer]
+    # Show contact icons for email/phone (if specified) in the footer of the page
+    showContactIcons = true
+
+    [params.meta]
+        keywords = "mobile tyre repair, tyre fitting services, emergency tyre service, 24/7 tyre assistance, on-site tyre replacement, roadside tyre repair, vehicle tyre maintenance, local tyre services, tyre installation at home, mobile tyre workshop, same-day tyre service, commercial tyre repairs, mobile tyre change, flat tyre service, tyre puncture repair, truck tyre repair mobile, mobile tyre fitting near me, car tyre replacement service, emergency tyre fitting, mobile tyre service near me, mobile tyre technicians, out-of-hours tyre service, fast tyre repair, mobile tyre fitting van, tyre repair service at your location"
+
+    [params.contact]
+        email = "pumptogo@gmail.com"
+        phone = "+44 7570 010028"
