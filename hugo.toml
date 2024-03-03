@@ -30,7 +30,7 @@ title = "Pump to Go - Mobile Tyre Services"
     # Ideal images are homogenous around the centre and contrasting to the text.
     # see CSS classes: .title-and-description-guard, .blog-title, .blog-description
     # see _index.md header_headline and header_subheadline
-    title_guard = false
+    title_guard = true
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
@@ -46,10 +46,10 @@ title = "Pump to Go - Mobile Tyre Services"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
-    hidedesignbyline = false
+    hidedesignbyline = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = false
+    invertSectionColors = true
     
     [params.footer]
     # Show contact icons for email/phone (if specified) in the footer of the page
@@ -59,5 +59,9 @@ title = "Pump to Go - Mobile Tyre Services"
         keywords = "mobile tyre repair, tyre fitting services, emergency tyre service, 24/7 tyre assistance, on-site tyre replacement, roadside tyre repair, vehicle tyre maintenance, local tyre services, tyre installation at home, mobile tyre workshop, same-day tyre service, commercial tyre repairs, mobile tyre change, flat tyre service, tyre puncture repair, truck tyre repair mobile, mobile tyre fitting near me, car tyre replacement service, emergency tyre fitting, mobile tyre service near me, mobile tyre technicians, out-of-hours tyre service, fast tyre repair, mobile tyre fitting van, tyre repair service at your location"
 
     [params.contact]
-        email = "pumptogo@gmail.com"
+        email = "pumptogo+enquiries@gmail.com"
         phone = "+447592187333"
+        facebook = "https://www.facebook.com/profile.php?id=61556880841805"
+        facebookDisplayName = "PumpToGo"
+        instagram = "https://www.instagram.com/pumptogo_tyres"
+        instagramDisplayName = "PumpToGo"
