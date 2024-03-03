@@ -1,7 +1,7 @@
 ---
 title: "Mobile Tyre Services"
 header_menu_title: "Services"
-navigation_menu_title: "My Services"
+navigation_menu_title: "Our Services"
 weight: 2
 header_menu: true
 ---
@@ -12,15 +12,17 @@ Welcome to our Services page! Here, we dive deep into how we can assist you with
 
 ### On-the-Go Tyre Services
 
+- **Emergency Tyre Repairs:** Flat tyre? No worries! Our mobile repair unit comes to you, providing quick and efficient tyre repairs to get you back on the road in no time.
+- **Tyre Fitting at Your Location:** Convenience at its best! We fit tyres at your home, workplace, or wherever you're stranded, ensuring your vehicle is equipped with the right tyres for safety and performance.
+
 - **Mobile Tyre Repair:** Quick on-site tyre repairs to get you moving.
-- **On-Location Tyre Fitting:** Tyres fitted at your convenience, anywhere.
-- **Motorcycle Transport:** Safe transport and recovery for motorcycles.
-- **Fuel Delivery:** Emergency fuel delivery to keep you going.
+- **On-Location Tyre Fitting:** Tyres fitted at your convenience,
+- **Jump Start Services:** We offer jump start services to get your vehicle up and running in case of a dead battery.
 
 ### Why Choose Us
 
-- **Rapid Response:** Our teams are quick to respond, aiming to reach you in the shortest time possible.
+- **Rapid Response:** Our team is quick to respond, aiming to reach you in the shortest time possible.
 - **Quality and Trust:** We use high-quality products and offer reliable services you can trust.
 - **Competitive Pricing:** Get top-notch services at competitive rates, with transparent pricing and no hidden costs.
 
-Interested? Give us a [call us](tel:+447570010028) or visit our website to book your service today!
+Interested? Give us a [call](tell:+447592187333) find out more!
