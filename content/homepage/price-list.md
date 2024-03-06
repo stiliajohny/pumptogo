@@ -11,7 +11,7 @@ weight: 3
 | Standard Call Out   | 06:00 - 20:00 | £64.99     | First 10 miles included          |
 | Evening Call Out    | 20:00 - 23:00 | £79.99     | First 10 miles included          |
 | Night Call Out      | 23:00 - 06:00 | £99.99     | First 10 miles included          |
-| Additional Mileage  | N/A           | £2.49/mile | Charged after the first 10 miles |
+| Additional Mileage  | N/A           | £2.49/mi   | Charged after the first 10 miles |
 
 _Note: Buying tyres from us includes fitting charges in the tyre's price._
 

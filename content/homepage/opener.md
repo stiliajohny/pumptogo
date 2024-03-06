@@ -7,6 +7,6 @@ At `PumpToGo`, we bring the tyre service to your location. Our website offers a 
 
 > "Your journey, our priority." --- PumpToGo
 
-Discover more on our [Services page](services).
+Discover more on our [Services page](#price-list).
 
 *This section is just the beginning. Dive in!*

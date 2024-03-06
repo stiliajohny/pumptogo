@@ -17,6 +17,7 @@ title = "Pump to Go - Mobile Tyre Services"
 # Theme-specific variables `.Site.Params.myParamName`
 [params]
 
+    
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/favicon.png"
 
@@ -65,3 +66,4 @@ title = "Pump to Go - Mobile Tyre Services"
         facebookDisplayName = "PumpToGo"
         instagram = "https://www.instagram.com/pumptogo_tyres"
         instagramDisplayName = "PumpToGo"
+        whatsapp = "https://wa.me/447592187333"
