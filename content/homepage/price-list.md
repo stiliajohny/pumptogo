@@ -17,7 +17,7 @@ _Note: Buying tyres from us includes fitting charges in the tyre's price._
 
 ## Mobile Tyre Fitting
 
-_Tires owned by the customer._
+_Tyres owned by the customer._
 
 | Service             | Vehicle Type | Price      | Additional Information           |
 | ------------------- | ------------ | ---------- | -------------------------------- |
