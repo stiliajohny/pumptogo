@@ -1,5 +1,5 @@
 ---
-title: "Price List"
+title: "Services"
 header_menu: true
 weight: 3
 ---
