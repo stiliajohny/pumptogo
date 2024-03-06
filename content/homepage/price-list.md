@@ -1,5 +1,6 @@
 ---
 title: "Price List"
+header_menu: true
 weight: 3
 ---
 
