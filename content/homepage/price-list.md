@@ -16,6 +16,8 @@ _Note: Buying tyres from us includes fitting charges in the tyre's price._
 
 ## Mobile Tyre Fitting
 
+_Tires owned by the customer._
+
 | Service             | Vehicle Type | Price      | Additional Information           |
 | ------------------- | ------------ | ---------- | -------------------------------- |
 | Mobile Tyre Fitting | Car          | £49.99     | Up to 10 miles from our location |
@@ -25,4 +27,6 @@ _Note: Buying tyres from us includes fitting charges in the tyre's price._
 _All prices are inclusive of VAT where applicable._
 
 **Special Arrangements:**
-For unique circumstances or bulk service requests, special pricing can be negotiated directly with the company.
+Got a special situation or looking for a group deal? Let's have a chat and we'll sort out a price that works for everyone.
+
+We're here to help you out, just [contact us](#contact)
