@@ -1,0 +1,3 @@
+{{ $url := .Site.Params.contact.instagram }}
+{{ $displayName := .Site.Params.contact.instagramDisplayName }}
+{{ printf `<a href="%s" target="_blank">%s</a>` $url $displayName | safeHTML }}

@@ -1,0 +1,4 @@
+<!-- themes/hugo-scroll/layouts/shortcodes/facebook.html -->
+{{ $url := .Site.Params.contact.facebook }}
+{{ $displayName := .Site.Params.contact.facebookDisplayName }}
+{{ printf `<a href="%s" target="_blank">%s</a>` $url $displayName | safeHTML }}
