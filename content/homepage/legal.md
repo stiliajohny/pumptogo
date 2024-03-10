@@ -1,5 +1,5 @@
 ---
-title: "T&C and Policies"
+title: "T&C"
 ---
 
-For our list of T&C  please click [here](./legal)
+For our list of T&C please click [here](./legal)
