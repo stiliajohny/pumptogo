@@ -5,21 +5,24 @@ weight: 3
 ---
 
 
-| Time                    | Price  | Additional Information  |
-| ----------------------- | ------ | ----------------------- |
-| Call Out  & Repair fees |        |                         |
-| 06:00 - 20:00           | £64.99 | First 10 miles included |
-| 20:00 - 23:00           | £79.99 | First 10 miles included |
-| 23:00 - 06:00           | £99.99 | First 10 miles included |
+| Time          | Price  |
+| ------------- | ------ |
+| Call Out      |        |
+| & Repair fees |        |
+| 06:00 - 20:00 | £64.99 |
+| 20:00 - 23:00 | £79.99 |
+| 23:00 - 06:00 | £99.99 |
+
+_**Please note**: over 10 miles from our location additional fees apply ( £2.49/mile )_
 
 ## Mobile Tyre Fitting
 
 _Tyres owned by the customer._
 
-| Service             | Vehicle Type | Price  | Additional Information  |
-| ------------------- | ------------ | ------ | ----------------------- |
-| Mobile Tyre Fitting | Car          | £49.99 | First 10 miles included |
-|                     | Motorcycle   | £59.99 | First 10 miles included |
+| Service             | Vehicle Type | Price  |
+| ------------------- | ------------ | ------ |
+| Mobile Tyre Fitting | Car          | £49.99 |
+|                     | Motorcycle   | £59.99 |
 
 _**Please note**: over 10 miles from our location additional fees apply ( £2.49/mile )_
 

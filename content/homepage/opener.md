@@ -9,4 +9,3 @@ At **PumpToGo**, we bring the tyre service to your location. Our website offers 
 
 Discover more on our [Services page](#services).
 
-*This section is just the beginning. Dive in!*
