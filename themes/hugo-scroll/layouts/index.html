@@ -20,16 +20,16 @@
             {{- partial "custom_header_video.html" . -}}
         {{ end }}
 
-        <div id="site-head-content" class="inner">
-            {{ with .Params.header_logo }}<img id="blog-logo" alt="Logo" src="{{ . }}" />{{ end }}
+        <div id="site-head-content" class="inner title-and-description-guard">
+            {{ with .Params.header_logo }}<img id="blog-logo" alt="Logo" src="{{ . }}" class="logo"  />{{ end }} 
+            <!-- # FIXME: make logo to be bigger and centered
+            # FIXME: cover the head with a transparent layer -->
+            
 
-            {{ if .Site.Params.title_guard }}<div class="title-and-description-guard">{{ end }}
+            {{ if .Site.Params.title_guard }}<div>{{ end }}
               {{ with .Params.header_headline }}<h1 class="blog-title">{{ . | safeHTML }}</h1>{{ end }}
               {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . | safeHTML }}</h2>{{ end }}
               {{ with .Params.header_subheadline }}
-                <h2 class="blog-description">
-                    <a href="tel:+447592187333" class="call-to-action">Call us now at +447592187333</a>
-                </h2>
             {{ end }}
             {{ if .Site.Params.title_guard }}</div>{{ end }}
 

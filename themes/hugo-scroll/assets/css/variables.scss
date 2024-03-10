@@ -1,48 +1,86 @@
-:root {
+// :root {
 
+//     /* === Cover / Landing area === */
+//     --cover-text-color: #37501a;
+//     /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
+//     --highlight: #F44336;
+//     --highlight-contrast: var(--cover-text-color);
+//     /*iverse colors used for :hover */
+//     --highlight-inverse: var(--cover-text-color);
+//     --highlight-inverse-contrast: white;
+
+//     /* visual guard around title and description, when the feature is enabled */
+//     --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.6);
+//     --cover-title-text-shadow: white 0px 0px 7px;
+
+
+//     /* === sticky top/left navigation menus === */
+//     --sticky-menu-text-color: #E57373;
+
+
+//     /* === Alternating content (post) sections  === */
+//     /* Light section - text color */
+//     --section-light-text-color: #3a4145;
+//     /* Light section - background color */
+//     --section-light-bg-color: #f2efe8;
+
+//     /* Dark section - text color */
+//     --section-dark-text-color: var(--section-light-bg-color);
+//     /* Dark section - background color */
+//     --section-dark-bg-color: #bb5c5c;
+
+//     /* Light&Dark section >quote. Supressive color, compared to 'Light section - text color'*/
+//     --section-uni-quote: grey;
+//     /* Light&Dark section `code` a bit darker than 'Light section - background color' */
+//     --section-uni-code-bg-color: #e0ded7;
+
+//     /* === Single pages=== */
+//     --single-page-text-color: var(--section-light-text-color);
+//     --single-page-bg-color: var(--section-light-bg-color);
+
+//     /* === Footer === */
+//     --footer-color-background: #22343a;
+//     --footer-color: #bbc7cc;
+
+//     /* === Lists === */
+//     /* define list element for unnumbered lists, leave empty for default list element */
+//     --ul-li-icon: fa-asterisk;
+// }
+
+
+:root {
     /* === Cover / Landing area === */
-    --cover-text-color: #37501a;
-    /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
-    --highlight: #86c440;
-    --highlight-contrast: var(--cover-text-color);
-    /*iverse colors used for :hover */
-    --highlight-inverse: var(--cover-text-color);
-    --highlight-inverse-contrast: white;
+    --cover-text-color: #473f3f; // Changed to white for clarity and contrast
+    --highlight: #F44336; // Retained your choice, a vibrant but not overpowering red
+    --highlight-contrast: #ffffff; // Set to white for high contrast with red
+    --highlight-inverse: #ffffff; // Adjusted to white for consistency
+    --highlight-inverse-contrast: #F44336; // Red on white for hover
 
     /* visual guard around title and description, when the feature is enabled */
-    --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.6);
-    --cover-title-text-shadow: white 0px 0px 7px;
-
+    --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.8); // Slightly more opaque for better readability
+    --cover-title-text-shadow: #ffffff 0px 0px 7px; // Retained white for a soft glow effect
 
     /* === sticky top/left navigation menus === */
-    --sticky-menu-text-color: #9fd067;
-
+    --sticky-menu-text-color: #F44336; // Adjusted to match the highlight color for consistency
 
     /* === Alternating content (post) sections  === */
-    /* Light section - text color */
-    --section-light-text-color: #3a4145;
-    /* Light section - background color */
-    --section-light-bg-color: #f2efe8;
+    --section-light-text-color: #000000; // Changed to black for a classic look
+    --section-light-bg-color: #ffffff; // Changed to white for a clean, modern feel
 
-    /* Dark section - text color */
-    --section-dark-text-color: var(--section-light-bg-color);
-    /* Dark section - background color */
-    --section-dark-bg-color: #b80135;
+    --section-dark-text-color: #ffffff; // Changed to white for contrast on dark backgrounds
+    --section-dark-bg-color: #343434; // A softer black for the dark sections, easier on the eyes
 
-    /* Light&Dark section >quote. Supressive color, compared to 'Light section - text color'*/
-    --section-uni-quote: grey;
-    /* Light&Dark section `code` a bit darker than 'Light section - background color' */
-    --section-uni-code-bg-color: #e0ded7;
+    --section-uni-quote: #888888; // A medium grey for quotes, providing subtle contrast
+    --section-uni-code-bg-color: #f4f4f4; // A very light grey for code sections, for readability
 
     /* === Single pages=== */
-    --single-page-text-color: var(--section-light-text-color);
-    --single-page-bg-color: var(--section-light-bg-color);
+    --single-page-text-color: #000000; // Unified with section-light-text-color for consistency
+    --single-page-bg-color: #ffffff; // Unified with section-light-bg-color for a cohesive look
 
     /* === Footer === */
-    --footer-color-background: #22343a;
-    --footer-color: #bbc7cc;
+    --footer-color-background: #222222; // Adjusted to a deep grey/black for a solid base
+    --footer-color: #ffffff; // Changed to white for readability against the dark background
 
     /* === Lists === */
-    /* define list element for unnumbered lists, leave empty for default list element */
-    --ul-li-icon: fa-asterisk;
+    --ul-li-icon: fa-asterisk; // No change, retains your choice for list icons
 }
