@@ -5,11 +5,19 @@
 {{ $content := where (where $sections "Params.external" "==" nil) "Params.detailed_page_homepage_content" "ne" false }}
 
 <!-- Welcome screen that scrolls out of view -->
+
 {{ if not .Params.header_use_video }}
+<div class="call-to-action-banner" style="background-color: #ff9800; color: white; text-align: center; padding: 10px; width: 100%;">
+    <span style="font-size: 20px;"><i class="fa fa-phone" aria-hidden="true"></i> Call us now: <a href="tel:+07572786057" style="color: white; text-decoration: underline;">07572786057</a></span>
+</div>
+
 <header id="site-head" class="withCenteredImage" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
-{{ else }}
+
+    {{ else }}
+
 <header id="site-head">
 {{ end }}
+
 
     <div class="vertical">
 
