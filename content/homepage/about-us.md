@@ -4,7 +4,7 @@ weight: 4
 header_menu: true
 ---
 
-![Pump to Go](images/PersonalImage.jpeg)
+<!-- ![Pump to Go](images/PersonalImage.jpeg) -->
 
 ##### Professional Experience
 
