@@ -26,7 +26,7 @@ _Tyres owned by the customer._
 
 _**Please note**: over 10 miles from our location additional fees apply ( £2.49/mile )_
 
-_All prices are inclusive of VAT where applicable._
+_All prices are included of VAT where applicable._
 
 **Special Arrangements:**
 Got a special situation or looking for a group deal? Let's have a chat and we'll sort out a price that works for everyone.
