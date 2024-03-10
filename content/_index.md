@@ -9,8 +9,8 @@ header_use_video: false
 header_logo: "images/pumptogo-logo.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-# header_headline: "24/7"
-# header_subheadline: " <b>24/7</b>"
+# header_headline: "Services available 24/7"
+header_subheadline: "All services available 24/7"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
