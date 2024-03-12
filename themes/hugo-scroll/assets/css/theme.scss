@@ -4,6 +4,28 @@ body {
 }
 /* ===== Cover =======*/
 
+
+.call-to-action-banner {
+  background-color: #ff9800; /* Bright background color for visibility */
+  color: white; /* White text color for contrast */
+  text-align: center; /* Center the content */
+  padding: 10px; /* Padding for spacing */
+  width: 100%; /* Ensure the banner takes full width */
+}
+
+.call-to-action-banner a {
+  color: white; /* Ensures the hyperlink is also white */
+  text-decoration: none; /* Removes underline from the hyperlink */
+  display: inline-block; /* Allows for proper alignment and spacing */
+}
+
+.call-to-action-banner a:hover {
+  text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
+
+
+
+
 #blog-logo {
   display: block;
   max-height: 2000px;
