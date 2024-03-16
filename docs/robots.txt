@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin
 Allow: /
 
-Sitemap: https://www.pumptogo.co.uk/sitemap.xml 
+Sitemap: https://pumptogo.co.uk/sitemap.xml
