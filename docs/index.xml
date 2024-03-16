@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pump to Go - Mobile Tyre Services</title>
+    <link>https://pumptogo.co.uk/</link>
+    <description>Recent content on Pump to Go - Mobile Tyre Services</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://pumptogo.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The single page referenced to by the Legal button on the cover page</title>
+      <link>https://pumptogo.co.uk/legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pumptogo.co.uk/legal/</guid>
+      <description>This file is a single page and is referenced by the button Legal on the cover start page.&#xA;It can contain more or additional information than the dedicated section on the homepage.</description>
+    </item>
+  </channel>
+</rss>
