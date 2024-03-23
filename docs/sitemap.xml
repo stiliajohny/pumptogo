@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://w3.org/1999/xhtml">
   <url>
-    <loc>https://www.pumptogo.co.uk/</loc>
-    <xhtml:link rel="canonical" href="https://www.pumptogo.co.uk/"/>
+    <loc>https://pumptogo.co.uk/</loc>
+    <xhtml:link rel="canonical" href="https://pumptogo.co.uk/"/>
   </url>
   <url>
-    <loc>https://www.pumptogo.co.uk/price-list/</loc>
-    <xhtml:link rel="canonical" href="https://www.pumptogo.co.uk/price-list/"/>
+    <loc>https://pumptogo.co.uk/price-list/</loc>
+    <xhtml:link rel="canonical" href="https://pumptogo.co.uk/price-list/"/>
   </url>
   <url>
-    <loc>https://www.pumptogo.co.uk/contact/</loc>
-    <xhtml:link rel="canonical" href="https://www.pumptogo.co.uk/contact/"/>
+    <loc>https://pumptogo.co.uk/contact/</loc>
+    <xhtml:link rel="canonical" href="https://pumptogo.co.uk/contact/"/>
   </url>
   <url>
-    <loc>https://www.pumptogo.co.uk/legal/</loc>
-    <xhtml:link rel="canonical" href="https://www.pumptogo.co.uk/legal/"/>
+    <loc>https://pumptogo.co.uk/legal/</loc>
+    <xhtml:link rel="canonical" href="https://pumptogo.co.uk/legal/"/>
   </url>
 </urlset>
