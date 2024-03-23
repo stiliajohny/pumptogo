@@ -1,13 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.pumptogo.co.uk/</loc>
+    <xhtml:link rel="canonical" href="https://www.pumptogo.co.uk/"/>
+  </url>
   <url>
     <loc>https://www.pumptogo.co.uk/price-list/</loc>
-  </url><url>
+    <xhtml:link rel="canonical" href="https://www.pumptogo.co.uk/price-list/"/>
+  </url>
+  <url>
     <loc>https://www.pumptogo.co.uk/contact/</loc>
-  </url><url>
-    <loc>https://www.pumptogo.co.uk/</loc>
-  </url><url>
+    <xhtml:link rel="canonical" href="https://www.pumptogo.co.uk/contact/"/>
+  </url>
+  <url>
     <loc>https://www.pumptogo.co.uk/legal/</loc>
+    <xhtml:link rel="canonical" href="https://www.pumptogo.co.uk/legal/"/>
   </url>
 </urlset>
