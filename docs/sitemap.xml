@@ -2,10 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pumptogo.co.uk/price-list/</loc>
+    <loc>https://www.pumptogo.co.uk/price-list/</loc>
   </url><url>
-    <loc>https://pumptogo.co.uk/contact/</loc>
+    <loc>https://www.pumptogo.co.uk/contact/</loc>
   </url><url>
-    <loc>https://pumptogo.co.uk/</loc>
-
+    <loc>https://www.pumptogo.co.uk/</loc>
+  </url><url>
+    <loc>https://www.pumptogo.co.uk/legal/</loc>
+  </url>
 </urlset>
