@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 theme = "hugo-scroll"
 
 # The browser tab name
-title = "Pump to Go - Mobile Tyre Services"
+title = "Pump to Go - 24/7 Mobile Tyre Services"
 
 # In order to add version information in the page's footer set to true.
 # enableGitInfo = true
@@ -57,7 +57,7 @@ title = "Pump to Go - Mobile Tyre Services"
     showContactIcons = true
 
     [params.meta]
-        keywords = "Mobile tyre fitting Hillingdon, On-the-go tyre service Uxbridge, Emergency tyre call-out Hillingdon, Wheel balancing experts Uxbridge, Mobile battery replacement Hillingdon, Car battery service Uxbridge, Summer vehicle check Hillingdon, Winter car inspection Uxbridge, Tyre pressure check Hillingdon, Locking wheel nut removal Uxbridge, Puncture repairs Hillingdon, DPF cleaning service Uxbridge, Premium tyre inventory Hillingdon, Summer tyre selection Uxbridge, All-season tyre options Hillingdon, Winter tyre choices Uxbridge, Performance tyres in Hillingdon, 4x4 tyre specialists Uxbridge, Runflat tyre availability Hillingdon, Tyre benefits and features Uxbridge, Convenient mobile tyre services Hillingdon, Effortless online tyre booking Uxbridge, Quality tyre products Hillingdon, Skilled tyre professionals Uxbridge, Roadside assistance for tyres Hillingdon, Customised tyre solutions Uxbridge, Transparent tyre services Hillingdon, Tyre safety and comfort Uxbridge, Premium tyre brands Hillingdon, Affordable tyre solutions Uxbridge, Tyre maintenance and care Hillingdon, Expert mobile tyre team Uxbridge, Hillingdon tyre inspection services, Uxbridge emergency tyre assistance, 24/7 mobile tyre support Hillingdon, Tyre replacement services Uxbridge, Hillingdon tyre repair specialists, Uxbridge puncture repair services, Mobile tyre experts in Hillingdon, Tyre selection guide for Uxbridge, Reliable tyre services in Hillingdon, Uxbridge top-rated tyre professionals, Mobile tyre fitting in all weather Hillingdon, Uxbridge on-location tyre experts, Efficient tyre services Hillingdon, Tyre safety tips for Uxbridge drivers, Quality tyres for all vehicles Hillingdon, Uxbridge top-rated mobile tyre services, Tyre service reviews in Hillingdon, Uxbridge hassle-free tyre solutions"
+        keywords = "mobile tyre fitter, mobile fitting, home fitting, tyres at work, tyres on the drive, mobile tyres, home tyres, tyre fitting. "
 
     [params.contact]
         email = "pumptogo+enquiries@gmail.com"
