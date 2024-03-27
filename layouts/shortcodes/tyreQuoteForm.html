@@ -1,0 +1,91 @@
+<div id="tyreQuoteForm" style="max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+    <h3 style="text-align: center;">Service Quote Calculator</h3>
+    <form onsubmit="calculateCost(event)" style="display: flex; flex-direction: column; gap: 10px;">
+        <label for="serviceType">Service Type:</label>
+        <select id="serviceType" name="serviceType" onchange="updateServiceOptions()" style="padding: 8px; border-radius: 4px; border: 1px solid #ddd;">
+            <option value="callOut">Call Out & Repair</option>
+            <option value="tyreFitting">Mobile Tyre Fitting</option>
+            <option value="tyreRepair">Tyre Repair</option>
+            <option value="batteryRecovery">Battery Recovery</option>
+            <option value="fuelRecovery">Fuel Recovery</option>
+        </select>
+        
+        <div id="additionalOptions" style="display: flex; flex-direction: column; gap: 10px;"></div>
+        
+        <label for="discount">Discount (%):</label>
+        <input type="number" id="discount" name="discount" placeholder="10" style="padding: 8px; border-radius: 4px; border: 1px solid #ddd;" value="10">
+        
+        <label for="vat">VAT (%):</label>
+        <input type="number" id="vat" name="vat" placeholder="20" style="padding: 8px; border-radius: 4px; border: 1px solid #ddd;" value="20">
+        
+        <label for="distance">Distance from our location (miles, over 10 miles only):</label>
+        <input type="number" id="distance" name="distance" placeholder="10" style="padding: 8px; border-radius: 4px; border: 1px solid #ddd;" value="10">
+        
+        <input type="submit" value="Calculate Cost" style="padding: 10px; border-radius: 4px; border: none; background-color: #0056b3; color: white; cursor: pointer;">
+    </form>
+    <p id="totalCost" style="text-align: center; margin-top: 15px;">Total Cost: £0</p>
+</div>
+
+<script>
+function calculateCost(event) {
+    event.preventDefault();
+    const serviceType = document.getElementById('serviceType').value;
+    let baseCost = 0;
+    if (serviceType === 'callOut') {
+        const callOutTime = document.getElementById('callOutTime').value;
+        baseCost = getCallOutCostByTime(callOutTime);
+    } else if (serviceType === 'tyreFitting' && document.getElementById('vehicleType')) {
+        baseCost = document.getElementById('vehicleType').value === 'car' ? 49.99 : 59.99;
+    } else {
+        baseCost = getServiceBaseCost(serviceType);
+    }
+    const discount = parseFloat(document.getElementById('discount').value) / 100;
+    const vat = parseFloat(document.getElementById('vat').value) / 100;
+    const distance = parseFloat(document.getElementById('distance').value);
+    let distanceCharge = distance > 10 ? (distance - 10) * 2.49 : 0;
+    
+    let costBeforeVAT = baseCost - (baseCost * discount) + distanceCharge;
+    let totalCost = costBeforeVAT + (costBeforeVAT * vat);
+    
+    document.getElementById('totalCost').innerHTML = 'Total Cost: £' + totalCost.toFixed(2);
+}
+
+function updateServiceOptions() {
+    const serviceType = document.getElementById('serviceType').value;
+    const optionsDiv = document.getElementById('additionalOptions');
+    optionsDiv.innerHTML = ''; // Clear previous options
+    
+    if (serviceType === 'tyreFitting') {
+        optionsDiv.innerHTML = '<label for="vehicleType">Vehicle Type:</label>' +
+            '<select id="vehicleType" name="vehicleType">' +
+            '<option value="car">Car (£49.99)</option>' +
+            '<option value="motorcycle">Motorcycle (£59.99)</option>' +
+            '</select><br><br>';
+    } else if (serviceType === 'callOut') {
+        optionsDiv.innerHTML += '<label         for="callOutTime">Time of Call Out:</label>' +
+        '<select id="callOutTime" name="callOutTime">' +
+        '<option value="6-20">06:00 - 20:00 (£64.99)</option>' +
+        '<option value="20-23">20:00 - 23:00 (£79.99)</option>' +
+        '<option value="23-6">23:00 - 06:00 (£99.99)</option>' +
+        '</select><br><br>';
+    }
+}
+
+function getCallOutCostByTime(timeSlot) {
+    switch (timeSlot) {
+        case '6-20': return 64.99;
+        case '20-23': return 79.99;
+        case '23-6': return 99.99;
+        default: return 0;
+    }
+}
+
+function getServiceBaseCost(serviceType) {
+    switch (serviceType) {
+        case 'tyreRepair': return 59.99;
+        case 'batteryRecovery': return 50;
+        case 'fuelRecovery': return 60;
+        default: return 0; // Default cost for services without specific cases
+    }
+}
+</script>
