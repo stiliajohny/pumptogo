@@ -9,9 +9,9 @@ weight: 3
 | ------------- | ------ |
 | Call Out      |        |
 | & Repair fees |        |
-| 06:00 - 20:00 | £64.99 |
-| 20:00 - 23:00 | £79.99 |
-| 23:00 - 06:00 | £99.99 |
+| 06:00 - 20:00 | £74.99 |
+| 20:00 - 23:00 | £89.99 |
+| 23:00 - 06:00 | £109.99 |
 
 _**Please note**: over 10 miles from our location additional fee applies ( £2.49/mile )_
 
@@ -21,8 +21,8 @@ _Tyres owned by the customer._
 
 | Service             | Vehicle Type | Price  |
 | ------------------- | ------------ | ------ |
-| Mobile Tyre Fitting | Car          | £49.99 |
-|                     | Motorcycle   | £59.99 |
+| Mobile Tyre Fitting | Car          | £59.99 |
+|                     | Motorcycle   | £69.99 |
 
 _**Please note**: over 10 miles from our location additional fee applies ( £2.49/mile )_
 
