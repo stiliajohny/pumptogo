@@ -1,0 +1,113 @@
+<div class="tire-catalog">
+    <!-- Filter Section -->
+    <div class="filter-section">
+        <div class="filter-grid">
+            <div>
+                <label for="budget">Budget Range:</label>
+                <select id="budget" class="filter-select">
+                    <option value="all">All Prices</option>
+                    <option value="economy">Economy (£30-£50)</option>
+                    <option value="midrange">Mid-Range (£51-£80)</option>
+                    <option value="premium">Premium (£81+)</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="size">Tire Size:</label>
+                <input type="text" id="size" placeholder="e.g. 205/55 R16" class="filter-input">
+            </div>
+            
+            <div>
+                <label for="type">Vehicle Type:</label>
+                <select id="type" class="filter-select">
+                    <option value="all">All Types</option>
+                    <option value="car">Car</option>
+                    <option value="suv">SUV</option>
+                    <option value="van">Van</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Section -->
+    <div id="tire-results" class="tire-grid">
+        <!-- Tire cards will be populated here by JavaScript -->
+    </div>
+</div>
+
+<script>
+(function() {
+    // Initialize tires data safely
+    var tiresData = JSON.parse({{ .Inner | safeJS }});
+    
+    function renderTires(filteredTires) {
+        var resultsDiv = document.getElementById('tire-results');
+        resultsDiv.innerHTML = '';
+
+        filteredTires.forEach(function(tire) {
+            var card = document.createElement('div');
+            card.className = 'tire-card';
+
+            card.innerHTML = [
+                '<img src="' + tire.image + '" alt="' + tire.name + '">',
+                '<h3>' + tire.name + '</h3>',
+                '<p>Size: ' + tire.size + '</p>',
+                '<p>Type: ' + tire.type + '</p>',
+                '<p>Price: £' + tire.price + '</p>',
+                '<button onclick="window.tireCatalog.buyTire(\'' + tire.id + '\')">',
+                '    Buy Now',
+                '</button>'
+            ].join('');
+
+            resultsDiv.appendChild(card);
+        });
+    }
+
+    function filterTires() {
+        var budget = document.getElementById('budget').value;
+        var size = document.getElementById('size').value.toLowerCase();
+        var type = document.getElementById('type').value;
+
+        var filtered = tiresData;
+
+        if (budget !== 'all') {
+            filtered = filtered.filter(function(tire) {
+                if (budget === 'economy') return tire.price <= 50;
+                if (budget === 'midrange') return tire.price > 50 && tire.price <= 80;
+                if (budget === 'premium') return tire.price > 80;
+                return true;
+            });
+        }
+
+        if (size) {
+            filtered = filtered.filter(function(tire) {
+                return tire.size.toLowerCase().includes(size);
+            });
+        }
+
+        if (type !== 'all') {
+            filtered = filtered.filter(function(tire) {
+                return tire.type.toLowerCase() === type.toLowerCase();
+            });
+        }
+
+        renderTires(filtered);
+    }
+
+    // Create global namespace for functions that need to be accessed from HTML
+    window.tireCatalog = {
+        buyTire: function(tireId) {
+            // Placeholder for buy functionality
+            alert('Buy functionality will be implemented in the next phase');
+        }
+    };
+
+    // Add event listeners
+    document.getElementById('budget').addEventListener('change', filterTires);
+    document.getElementById('size').addEventListener('input', filterTires);
+    document.getElementById('type').addEventListener('change', filterTires);
+
+    // Initial render
+    renderTires(tiresData);
+})();
+</script> 
