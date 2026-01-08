@@ -39,14 +39,14 @@ title = "Pump to Go - 24/7 Mobile Tyre Services"
     title = "Pump to Go"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "We provide 24/7 mobile tyre fitting service of any car, any time and anywhere, Whether you’re stranded on the roadside or just need a quick fix at home we will bring tyre shop to you call us on 07459568986"
+    description = "We provide 24/7 mobile tyre fitting service of any car, any time and anywhere, Whether you're stranded on the roadside or just need a quick fix at home we will bring tyre shop to you call us on 07459568986"
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
     copyright = "©Pumpto Go 2023"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
-    # You can turn it off, but we would really appreciate if you don’t :-)
+    # You can turn it off, but we would really appreciate if you don't :-)
     hidedesignbyline = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
@@ -67,3 +67,13 @@ title = "Pump to Go - 24/7 Mobile Tyre Services"
         instagram = "https://www.instagram.com/pumptogo_tyres"
         instagramDisplayName = "PumpToGo"
         whatsapp = "https://wa.me/447592187333"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[build]
+  [build.buildStats]
+    # Suppress deprecation warning
+    ignoreLogs = ['warning-goldmark-raw-html']
